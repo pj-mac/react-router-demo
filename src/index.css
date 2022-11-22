@@ -1,0 +1,16 @@
+body {
+    margin: 2rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.nav__item--active {
+    font-weight: bold;
+}
+
+.nav__item:not(:last-child) {
+    padding-right: 2.5rem;
+}
